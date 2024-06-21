@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: #2B0945;
+    font-family: "Inter", sans-serif;
+  }
+  
+  /* MAIN CONTAINER */
+  .mainContainer {
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* MAIN CONTAIN CALCFACT APP*/
+  .containMathFibo {
+    background-color: #f2c230;
+    width: 800px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    border-radius: 50px;
+    border-color: transparent;
+  }
+  
+  .informationMathFibo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .informationMathFibo h2 {
+    font-size: 30px;
+    color: #ffffff;
+  }
+  
+  /* SECTION FACTORIAL APP */
+  .fibonacciApp {
+    width: 50%;
+    height: 100%;
+    background-color: #ededed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 30px 30px 0;
+  }
+  
+  .containfibonacciApp {
+    margin: 0 auto;
+    background-color: #2B0945;
+    height: 380px;
+    width: 250px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .containfibonacciApp h2 {
+    font-size: 30px;
+    color: #f2c230;
+  }
+  
+  form {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  input {
+    width: 45%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: #f2c230;
+    text-align: center;
+  }
+  
+  input::placeholder {
+    text-align: center;
+  }
+  
+  button {
+    width: 40%;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    background-color: #f2c230;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+  }
+  
+  button:hover {
+    background-color: #fe8f1c;
+    color: #000000;
+  }
+  
+  #msgError {
+    height: 13px;
+    width: 80%;
+    color: rgb(255, 0, 0);
+    font-size: 10px;
+    border-radius: 3px;
+    margin: 0 auto;
+  }
+  
+  h3 {
+    color: #ffff;
+  }
+  
+  .resultFibo {
+    background-color: #44285B;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .resultFibo span {
+    font-size: 30px;
+    overflow: hidden;
+    color: #ededed;
+    /* white-space: initial; */
+    text-overflow: ellipsis;
+  
+  }
+  
+  @media (max-width: 744px) {
+  
+  /* MAIN CONTAINER */
+  .mainContainer {
+      min-height: 0%;
+      margin: 10px auto;
+    }
+    
+    /* MAIN CONTAIN CALCFACT APP*/
+  
+    .containMathFibo {
+      width: 90%;
+      height: 100%;
+      flex-direction: column;
+    }
+  
+    .informationMathFibo {
+      width: 100%;
+      gap: 20px;
+      text-align: center;
+      padding: 30px;
+    }
+  
+  
+  /* SECTION FACTORIAL APP */
+  .fibonacciApp {
+      width: 100%;
+      padding: 30px;
+      border-radius: 0 0 30px 30px;
+    }
+  
+  }
+  

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+
+    <title>MathFibo</title>
+</head>
+<body>
+
+    <main class="mainContainer">
+        <div class="containMathFibo">
+            <!-- INFORMATION APP MathFibo -->
+            <section class="informationMathFibo">
+                <h2>¿Qué es MathFibo?</h2>
+                <p>MathFibo es una app increíble que te permite explorar la secuencia de Fibonacci de forma rápida y sencilla.</p>
+                <h2>¿Te preguntas qué es una secuencia de Fibonacci? </h2>
+                <p>¡Es fácil! La secuencia de Fibonacci es una serie de números donde cada número es la suma de los dos anteriores, comenzando con 0 y 1.</p>
+            </section>
+
+            <!-- SECTION FACTORIAL APP -->
+            <section class="fibonacciApp">
+                <div class="containfibonacciApp">
+                    <h2>MathFibo</h2>
+                    <div>
+                        <form id="formCalc">
+                            <input id="valueCal" class="valueCal" type="text" placeholder="Valor a calcular">
+                            <button id="btnCal" class="btnCal" type="submit">CALCULAR</button>
+                        </form>
+                        <p id="msgError"></p>
+                    </div>
+                    <h3 >la secuencia Fibonacci de <span> X </span> es:</h3>
+                    <div class="resultFibo">
+                        <span id="resultFibo" > X</span>
+                    </div>
+                </div>
+                </section>
+
+        </div>
+    </main>
+
+    <script src="/index.js"></script>
+</body>
+</html>
