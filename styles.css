@@ -135,17 +135,22 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: hidden;
+    overflow-y: visible;
+   
   }
   
   .resultFibo span {
-    font-size: 30px;
-    overflow: hidden;
+    font-size: 15px;
     color: #ededed;
-    /* white-space: initial; */
-    text-overflow: ellipsis;
-  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis;  
   }
-  
+
+
   @media (max-width: 744px) {
   
   /* MAIN CONTAINER */
